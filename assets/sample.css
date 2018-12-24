@@ -1,0 +1,49 @@
+.errorMessage{
+  color:red;
+}
+
+.form-row{
+  margin-top: 10px;
+}
+
+.contenedor ,
+.gu-mirror {
+  margin: 10px;
+  padding: 10px;
+
+  transition: opacity 0.4s ease-in-out;
+}
+.contenedor {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+.gu-mirror {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+.contenedor .ex-moved {
+  background-color: #e74c3c;
+}
+.contenedor.ex-over {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.handle {
+  padding: 0 5px;
+  margin-right: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: move;
+}
+nested-repeat-example .contenedor span {
+  display: block;
+  padding: 8px;
+}
+
+.rules{
+  margin: 10px 10px 0 10px;
+}
+.rules label{
+  margin-bottom: 0;
+}
